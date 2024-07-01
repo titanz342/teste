@@ -1,0 +1,2 @@
+web: gunicorn botfun.wsgi
+worker: python botfun.py
