@@ -1,2 +1,2 @@
-web: gunicorn botfun.wsgi
+web: gunicorn app:botfun
 worker: python botfun.py
